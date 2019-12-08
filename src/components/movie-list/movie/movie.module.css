@@ -1,0 +1,25 @@
+ol{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ol li {
+    padding-right: 40px;
+}
+
+div:hover{
+    color: lightblue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    ol{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    ol li {
+        padding-right: 0px;
+    }
+}

@@ -1,24 +1,30 @@
-.page {
-  display: grid;
-  grid-column-gap: 0.8rem;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(30, auto);
+.movie-container {
+  display: flex;
+  flex-direction: column;
+}
 
-  margin: 0 auto;
-  max-width: 1200px;
-  position: relative;
-  width: 100%;
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
-  &__filters {
-    background: white;
-    grid-column: 1 / 4;
-    grid-row: 1;
-    padding: 1rem;
+.bg-darkorange {
+  background: darkorange;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 601px) {
+
+  .mb-mt-lg {
+    margin-top: 15px
   }
-
-  &__results {
-    grid-column: 4 / 13;
-    grid-row: 1;
-    padding: 0 1rem;
-  }
+  
+}
+@media screen and (min-width: 993px) {
+  
 }

@@ -1,6 +1,10 @@
 body {
-  background: #eee;
-  font-family: Helvetica, Arial, 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 @import 'page';
